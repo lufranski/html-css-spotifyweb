@@ -22,20 +22,33 @@ body {
     background-color: #282828;
     position: fixed;
     z-index: 800;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
 }
 
 /* Sidebar rules */
 #sidebar {
     background-color: #000;
-    width: 200px;
+    width: 150px;
     height: 100%;
     /* DEBUG */
 }
 
+    .sidebox {
+        /* debug */
+        width: 80%;
+        height: 100px;
+        margin-bottom: 20px;
+        border: 1px dashed #fff;
+    }
+
 /* Content rules */
 #content {
     background-color: #141922;
-    width: calc(100% - 200px);
+    width: calc(100% - 150px);
     height: 100%;
 }
 
@@ -46,7 +59,7 @@ body {
         position: fixed;
         top: 0;
         right: 0;
-        z-index: 999;
+        z-index: 900;
     }
 
         #button {
@@ -60,6 +73,7 @@ body {
         }
     
     #albums {
+        height: calc(100% - 80px);
         margin-top: 100px;
         overflow-y: scroll;
     }    
@@ -79,3 +93,13 @@ body {
                 height: 100px;
                 background-color: #fff;
             }
+
+            
+            
+/*Bottom bar rules*/
+.box {
+    /* debug */
+    width: calc((100% / 3) - 40px);
+    height: 80%;
+    border: 1px dashed #fff;
+}
