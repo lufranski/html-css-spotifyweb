@@ -52,6 +52,10 @@ ul {
         margin-top: 20px;
     }
     
+    #logo-small {
+        display: none;
+    }
+
     .sidebox {
         /* debug */
         /* width: 80%; */
@@ -91,7 +95,7 @@ ul {
         }
         
         .sidebox.install {
-            margin-top: 40px;
+            /* margin-top: 40px; */
             border-bottom: 1px solid #515151;
             max-width: 80%;
             gap: 10px;
@@ -103,6 +107,10 @@ ul {
 
         .profile .icon {
             width: 20px;
+        }
+
+        #low-sec {
+            margin-top: 25%;
         }
 
 /* Content rules */
@@ -162,4 +170,54 @@ ul {
     width: calc((100% / 3) - 40px);
     height: 80%;
     border: 1px dashed #fff;
+}
+
+
+
+/* Responsive */
+
+/* Mobile XS Version */
+@media screen and (max-width: 552px) {
+    #sidebar {
+        width: 10%;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #content {
+        width: 90%;
+    }
+
+    #upgrade {
+        width: 90%;
+    }
+
+    #sidebar h3 {
+        display: none;
+    }
+
+    #sidebar li {
+        display: none;
+    }
+
+    #logo-small {
+        display: block;
+        width: 30px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .icon {
+        width: 30px;
+    }
+
+    .add {
+        display: none;
+    }
+
+    #low-sec {
+        margin-top: 700px;
+    }
 }
