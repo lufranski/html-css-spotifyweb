@@ -420,6 +420,7 @@ ul {
 @media screen and (max-width: 552px) {
     #sidebar {
         width: 10%;
+        padding: 10px;
     }
 
     #logo {
@@ -455,6 +456,6 @@ ul {
     }
 
     #low-sec {
-        margin-top: 700px;
+        margin-top: 600px;
     }
 }
