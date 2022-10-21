@@ -169,8 +169,7 @@ ul {
             .card {
                 /* debug */
                 width: calc((100% / 6) - 10px);
-                height: 100px;
-                background-color: #fff;
+                /* height: 100px; */
             }
 
                 .card img {
@@ -224,6 +223,23 @@ ul {
 
 
 /* Responsive */
+
+/* Tablet Version */
+@media screen and (max-width: 878px) {
+    .card {
+        width: calc((100% / 4) - 10px);
+    } 
+}
+
+/* Mobile S Version */
+@media screen and (max-width: 639px) {
+    .card {
+        width: calc((100% / 2) - 10px);
+    } 
+}
+
+
+
 
 /* Mobile XS Version */
 @media screen and (max-width: 552px) {
