@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Spotify Web</title>
 </head>
 <body>
@@ -316,9 +317,109 @@
 
    <!-- Bottom bar -->
    <div id="bottombar">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+        <div class="box">
+            <!-- Track name -->
+            <div id="track">
+                    <div id="cover">
+                        <a href="#">
+                            <img src="img/sinister.jpeg" alt="sinister">
+                        </a>
+                    </div>
+
+                    <div id="name">
+                        <a href="#">
+                            <h5>Sinister</h5>
+                            <h6>Brano Nome</h6>    
+                        </a>
+                    </div>
+            </div>
+
+            
+            <span class="player-icon">
+                <a href="#">
+                    <i class="fa-regular fa-heart"></i>
+                </a>
+            </span>
+
+            <span class="player-icon">
+                <a href="#">
+                    <i class="fa-regular fa-folder"></i>
+                </a>
+            </span>
+        </div>
+        <div id="console">
+            <div id="top">
+                <!-- Player controls -->
+                <span class="player-icon center">
+                    <a href="#">
+                        <i class="fa-solid fa-shuffle"></i>
+                    </a>
+                </span>
+
+                <span class="player-icon center">
+                    <a href="#">
+                        <i class="fa-solid fa-backward-step"></i>
+                    </a>
+                </span>
+
+                <span class="player-icon center">
+                    <a href="#">
+                        <i id="play" class="fa-regular fa-circle-play"></i>
+                    </a>
+                </span>
+
+                <span class="player-icon center">
+                    <a href="#">
+                        <i class="fa-solid fa-forward-step"></i>
+                    </a>
+                </span>
+
+                <span class="player-icon center">
+                    <a href="#">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </a>
+                </span>
+            </div>
+
+            <div id="bot">
+                <div class="numbers start">
+                    0.25
+                </div>
+                
+                <div class="time"></div>
+
+                <div class="time white">
+                    <a href="#"></a>
+                </div>
+
+                <div class="numbers end">
+                    4.25
+                </div>
+
+            </div>
+        </div>
+        <div class="box">
+            <span class="player-icon right">
+                <a href="#">
+                    <i class="fa-solid fa-list"></i>
+                </a>
+            </span>
+
+            <span class="player-icon right">
+                <a href="#">
+                    <i class="fa-solid fa-desktop"></i>
+                </a>
+            </span>
+
+            <span class="player-icon right">
+                <a href="#">
+                    <i class="fa-solid fa-volume-high"></i>
+                </a>
+            </span>
+
+            <div class="time short"></div>
+            <div class="time white short"></div>
+        </div>
    </div>
 </body>
 </html>
