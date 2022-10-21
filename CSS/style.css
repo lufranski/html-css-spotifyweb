@@ -195,7 +195,7 @@ ul {
                     color: #fff;
                 }
 
-                .card:hover {
+                .card:hover .album {
                     filter: opacity(50%);
         
                 }
@@ -207,8 +207,7 @@ ul {
                     position: absolute;
                     top: 40%;
                     left: 50%;
-                    transform: translate(-40%, -50%);
-                    
+                    transform: translate(-40%, -50%);    
                 }
 
                 .card:hover #play {
